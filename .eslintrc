@@ -1,0 +1,27 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "extends": [
+        "airbnb-typescript",
+        "airbnb/hooks",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["pages", "public", "server", "src"],
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
+    },
+    "ignorePatterns": ["**/Icons/*.tsx"],
+    "rules": {
+        "react/react-in-jsx-scope": "off"
+    }
+}
