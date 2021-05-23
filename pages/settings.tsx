@@ -5,6 +5,7 @@ import { Layout, TabBar } from '@Components';
 function Settings(): JSX.Element {
     return (
         <Layout>
+            <h1 className="pt-10 px-4">Coming soon...</h1>
             <TabBar />
         </Layout>
     );
