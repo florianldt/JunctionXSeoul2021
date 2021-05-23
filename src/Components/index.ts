@@ -1,1 +1,4 @@
-export { default } from '@Components/Layout';
+import Layout from './Layout';
+import TabBar from './TabBar';
+
+export { Layout, TabBar };
