@@ -7,3 +7,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
+svg path {
+    fill: currentColor;
+}
+
+.layout {
+    width: 375px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
